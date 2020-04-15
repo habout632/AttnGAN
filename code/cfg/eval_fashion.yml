@@ -1,7 +1,7 @@
 CONFIG_NAME: 'attn2'
 
 DATASET_NAME: 'fashion'
-DATA_DIR: '/data2/fashion'
+DATA_DIR: '../data/fashion'
 GPU_ID: 0
 WORKERS: 1
 
@@ -12,10 +12,10 @@ TREE:
 
 TRAIN:
     FLAG: False
-    NET_G: '/data2/fashion/models/netG_epoch_350.pth'
+    NET_G: '../data/fashion/models/netG_epoch_350.pth'
     B_NET_D: False
     BATCH_SIZE: 10
-    NET_E: '/data2/fashion/encoders/text_encoder200.pth'
+    NET_E: '../data/fashion/encoders/text_encoder200.pth'
 
 
 GAN:
