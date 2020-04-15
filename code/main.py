@@ -62,7 +62,7 @@ def gen_example(wordtoix, algo):
 
                     rev = []
                     for t in tokens:
-                        t = t.encode('ascii', 'ignore').decode('ascii')
+                        # t = t.encode('ascii', 'ignore').decode('ascii')
                         if len(t) > 0 and t in wordtoix:
                             rev.append(wordtoix[t])
                     captions.append(rev)
